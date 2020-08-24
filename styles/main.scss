@@ -123,18 +123,33 @@ body {
 
 
 
-.featured {
-    padding: 50px 575px;
-
-    h1 {
-        letter-spacing: 2px;
-        color: white;
-        background-color: black;
-        text-align: center;
-        padding: 10px 10px;
-    }
-
+.fbox {
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+    background-color: black;
+    color: white;
+    letter-spacing: 2px;
 }
+
+// h1 {
+//     padding: 50px 575px;
+//     flex-wrap: wrap;
+// }
+
+
+
+// letter-spacing: 2px;
+// color: white;
+// background-color: black;
+// text-align: center;
+// padding: 10px 10px;
+
+
+
+
 
 .box-container {
     width: 100%;
