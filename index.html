@@ -109,14 +109,23 @@
 
         </div>
     </div>
-    <!-- Need a 'label' and field 'input' -->
+    <!-- Need a 'label' and field 'input'. CAN add divs in one FORM -->
     <section class="form-box">
         <div class="sub">
             <h1>Subscribe</h1>
         </div>
-        <form action="submit">
-            <input type="text" name="mailinglist" id="mailinglist" placeholder="Email">
-            <input type="Submit">
+
+        <!-- Remember <form></form> -->
+
+        <!-- <form action="submit"> -->
+        <div class="mailinglist">
+            <label for="mailinglist">Enter your Email</label>
+            <input type="text" name="mailinglist" id="mailinglist" placeholder="Here">
+        </div>
+        <div class="form-button">
+            <button>Submit</button>
+        </div>
+
         </form>
 
 

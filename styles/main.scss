@@ -194,18 +194,61 @@ body {
 }
 
 .form-box {
-    width: 75%;
+    width: 50%;
     margin: auto;
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    // height: 10vh;
+    min-width: 10vh;
+    background-color: lavender;
+    flex-wrap: wrap;
+
+
+
 
     .sub {
         text-align: center;
-        align-items: center;
+        // align-items: center;
         justify-content: center;
         padding-top: 20px;
         padding-bottom: 20px;
         letter-spacing: 1rem;
+
     }
+}
+
+.mailinglist {
+    text-align: center;
+    // align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+
+
+}
+
+.form-button {
+    text-align: center;
+    // align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+button {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    // border-radius = shape of button
+    border-radius: 30px;
+    transition: background 0.5s;
+
+    &:hover {
+        color: yellow;
+        background: chocolate;
+    }
+
 }
