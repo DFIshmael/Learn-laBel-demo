@@ -81,6 +81,7 @@ nav {
 
 body {
   width: 100%;
+  background: radial-gradient(#fff, #ffd6d6);
 }
 
 .hero-container {
@@ -166,10 +167,6 @@ body {
 .box img {
   width: 100%;
   height: 300px;
-}
-
-.background-radiant {
-  background: radial-gradient(#fff, #ffd6d6);
 }
 
 .small-container {
