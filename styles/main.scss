@@ -74,6 +74,7 @@ nav {
 body {
     width: 100%;
 
+
 }
 
 .hero-container {
@@ -130,7 +131,7 @@ body {
 
 .fbox {
     width: 300px;
-    margin: 20px auto;
+    margin: 40px auto;
     text-align: center;
     flex-wrap: wrap;
     padding: 10px 10px;
@@ -157,6 +158,7 @@ body {
     padding: 0px 20px 0px 20px;
     margin-bottom: 70px;
 
+
 }
 
 
@@ -168,9 +170,26 @@ body {
 
 .background-radiant {
     background: radial-gradient(#fff, #ffd6d6);
+
 }
 
 .small-container {
     max-width: 1080px;
     margin: auto;
+}
+
+.product-deets {
+    max-width: 300px;
+    margin: auto;
+    line-height: 2rem;
+    display: block;
+
+
+    h4 {
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
 }
