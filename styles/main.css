@@ -72,13 +72,6 @@ nav {
   color: chocolate;
 }
 
-.logo {
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
 body {
   width: 100%;
   height: 100%;
@@ -95,7 +88,6 @@ body {
 }
 
 .hero-area {
-  color: white;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -112,13 +104,8 @@ body {
   text-align: center;
 }
 
-.hero-content p {
-  font-size: 30px;
-  color: black;
-}
-
 .hero-content h1 {
-  font-size: 80px;
+  font-size: 3rem;
   color: cornflowerblue;
   margin-bottom: 30px;
 }
@@ -177,17 +164,10 @@ body {
 }
 
 .product-deets {
-  max-width: 300px;
+  max-width: auto;
   margin: auto;
   line-height: 2rem;
   display: block;
-}
-
-.product-deets h4 {
-  text-align: center;
-}
-
-.product-deets p {
   text-align: center;
 }
 
@@ -248,5 +228,13 @@ button {
 button:hover {
   color: yellow;
   background: chocolate;
+}
+
+.logo {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 10px 25px;
+  background-color: chocolate;
+  padding: 20px;
 }
 /*# sourceMappingURL=main.css.map */

@@ -146,7 +146,7 @@ body {
 
 
 .box {
-    // width = # of boxes in a column divided by 100% width of vh
+    // width = 100% divided by # of boxes in a row/column#
     width: 33.3%;
     // 'min-width:' for responsive sizing
     min-width: 250px;
@@ -172,19 +172,12 @@ body {
 }
 
 .product-deets {
-    max-width: 300px;
+    max-width: auto;
     margin: auto;
     line-height: 2rem;
     display: block;
-
-
-    h4 {
-        text-align: center;
-    }
-
-    p {
-        text-align: center;
-    }
+    text-align: center;
+    // background-color:black;
 }
 
 .form-box {
@@ -245,4 +238,12 @@ button {
         background: chocolate;
     }
 
+}
+
+.logo{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 10px 25px;
+    background-color: chocolate;
+    padding: 20px;
 }
