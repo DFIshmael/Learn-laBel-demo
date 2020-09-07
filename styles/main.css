@@ -171,6 +171,15 @@ body {
   text-align: center;
 }
 
+.product-deets a {
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+.product-deets a:hover {
+  color: chocolate;
+}
+
 .form-box {
   width: 50%;
   margin: auto;

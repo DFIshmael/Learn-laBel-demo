@@ -178,6 +178,13 @@ body {
     display: block;
     text-align: center;
     // background-color:black;
+    a{
+        text-decoration: none;
+        color:cornflowerblue;
+        &:hover{
+            color:chocolate;
+        }
+    }
 }
 
 .form-box {
