@@ -151,8 +151,9 @@ body {
     // 'min-width:' for responsive sizing
     min-width: 250px;
     float: left;
-    padding: 0px 20px 0px 20px;
-    margin-bottom: 20px;
+    padding:20px;
+    // padding: 0px 20px 0px 20px;
+    // margin-bottom: 20px;
 
 }
 
@@ -177,7 +178,6 @@ body {
     line-height: 2rem;
     display: block;
     text-align: center;
-    // background-color:black;
     a{
         text-decoration: none;
         color:cornflowerblue;
@@ -209,6 +209,7 @@ body {
         padding-top: 20px;
         padding-bottom: 20px;
         letter-spacing: 1rem;
+        flex-wrap: wrap;
 
     }
 }
@@ -219,6 +220,7 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
     letter-spacing: 2px;
+    flex-wrap:wrap;
 
 
 }
