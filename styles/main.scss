@@ -31,6 +31,7 @@ nav {
         a {
             text-decoration: none;
             color: black;
+            
 
             &:hover {
                 color: chocolate;
@@ -186,7 +187,7 @@ body {
         }
     }
 }
-
+//globak styles for the form 
 .form-box {
     width: 50%;
     margin: auto;
@@ -214,26 +215,33 @@ body {
     }
 }
 
-.mailinglist {
-    text-align: center;
-    // align-items: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    letter-spacing: 2px;
-    flex-wrap:wrap;
-
-
-}
 
 .form-button {
     text-align: center;
     // align-items: center;
     justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 10px 20px;
+    background-color: cornflowerblue;
+    color: white;
+    text-decoration: none;
+    // border-radius = shape of button
+    border-radius: 30px;
+    transition: background 0.5s;
+
+
+    &:hover {
+        color: yellow;
+        background: chocolate;
+        text-decoration: none;
+    // border-radius = shape of button
+    border-radius: 30px;
+    transition: background 0.5s;
+
+}
 }
 
-button {
+
+.hero-button {
     background-color: cornflowerblue;
     color: white;
     padding: 10px 20px;

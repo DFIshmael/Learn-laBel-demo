@@ -209,25 +209,30 @@ body {
       flex-wrap: wrap;
 }
 
-.mailinglist {
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  letter-spacing: 2px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
 .form-button {
   text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 10px 20px;
+  background-color: cornflowerblue;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  -webkit-transition: background 0.5s;
+  transition: background 0.5s;
 }
 
-button {
+.form-button:hover {
+  color: yellow;
+  background: chocolate;
+  text-decoration: none;
+  border-radius: 30px;
+  -webkit-transition: background 0.5s;
+  transition: background 0.5s;
+}
+
+.hero-button {
   background-color: cornflowerblue;
   color: white;
   padding: 10px 20px;
@@ -237,7 +242,7 @@ button {
   transition: background 0.5s;
 }
 
-button:hover {
+.hero-button:hover {
   color: yellow;
   background: chocolate;
 }
